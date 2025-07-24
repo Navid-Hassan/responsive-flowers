@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Responsive Flowers</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="sm:mx-[150px]">
+        <nav>
+            <div class="flex justify-between items-center mx-[16px] mt-[16px]">
+                <img src="./assets/logo.png" alt="">
+                <div>
+                    <ul class="sm:flex sm:gap-x-[48px]">
+                        <li class="sm:inline hidden font-bold text-[#252432]">Home</li>
+                        <li class="sm:inline hidden text-[#8987A1]">Shop</li>
+                        <li class="sm:inline hidden text-[#8987A1]">About us</li>
+                        <li class="sm:flex gap-x-[10px] "><img class="h-[24px] w-[24px]" src="./assets/shopping-cart.png" alt="">
+                        <p>Card ($56)</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sm:mt-[120px] sm:flex sm:items-end sm:justify-between">
 
+                <img class="sm:order-2 my-[28px]" src="./assets/hero-flower.png" alt="">
+
+                <div class="lg:w-[570px] mx-[16px]">
+                    <h1 class="sm:order-1 sm:text-[65px] font-bold text-[24px] noto-serif">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span></h1>
+                    <p class="text-[rgba(0,0,0,0.5)] mt-13px mb-[65px] inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                </div>
+                
+            </div>
+        </nav>
     </header>
     <main>
-
+        
     </main>
     <footer>
         
